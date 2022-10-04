@@ -18,5 +18,5 @@ pip install -r requirements.txt
 "venv name"/bin/jupyter lab -> runs the jupyter notebooks (sometimes --no-browser is required)
 
 ## Create requirements.txt
-1. source "venv name"/bin/activate
-2. pip list > requirements.txt
+1- source "venv name"/bin/activate
+2- pip freeze > requirements.txt
