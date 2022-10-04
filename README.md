@@ -6,6 +6,11 @@
 - nav to directory
 - python3 -m venv "venv name"
 - source "venv name"/bin/activate
-  
+<br>
+
 The console user will now be:
   ("venv name")laptopname $
+
+<br>
+
+For getting out the virtual environment, just type deactivate
