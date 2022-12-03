@@ -109,7 +109,7 @@ aeronaves.show(10)
 df_fechas.createOrReplaceTempView('fechas')
 
 hc.sql("insert into examen_final.vuelos select * from fechas;")
-hc.sql("insert into examen_final.aeropuertos * from aeropuertos;")
+hc.sql("insert into examen_final.aeropuertos select * from aeropuertos;")
 
 
 
